@@ -1,0 +1,41 @@
+body{
+    background: #0099F7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 20px; 
+}
+.meneador{text-align: center;}
+
+.botones button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #imagen-container {
+    margin-top: 20px;
+  }
+  
+  #reiniciar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  }
+  
+  #reiniciar:hover {
+    background-color: #d32f2f;
+  }
+  
+
+
